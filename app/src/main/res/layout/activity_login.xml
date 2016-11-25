@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/egco"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/userLoginTxt"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:hint="Username" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/passLoginTxt"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:hint="Password" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="287dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign-in"
+            android:id="@+id/signinBtn"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:background="#e91e63"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/cancelBtn"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:background="#FCE4EC"
+            android:layout_marginLeft="30dp"
+            android:textColor="#e91e63" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:text="Sign-up"
+        android:id="@+id/signupBtn"
+        android:layout_gravity="center_horizontal"
+        android:background="#AB47BC"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
